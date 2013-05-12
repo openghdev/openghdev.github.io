@@ -1,66 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Openghdev.github.io : Project GitHub page" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Openghdev.github.io by openghdev</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Openghdev.github.io</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>Openghdev.github.io</h1>
+        <p>Project GitHub page</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/openghdev">View on GitHub</a>
 
-          <h1 id="project_title">openGH</h1>
-          <h2 id="project_tagline">The coding comunnity around GH</h2>
+        <p class="view"><a href="https://github.com/openghdev">View My GitHub Profile</a></p>
 
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>What is openGH</h3>
+      </header>
+      <section>
+        <h3>What is openGH?</h3>
 
 <p>It’s an open initiative created to be a meeting point for all code enthusiasts inside Grasshopper3d community. If you have been searching for a place where research, share and learn about coding related to Grasshopper with other people around the world, this is it.</p>
 
 <h3>How could I contribute?</h3>
 
-<p>The first thing you need to start a project is a personal GitHub account. Then, just send and email to openghdev@gmail.com with your project proposal and we will open a new repository (with a small description and README and LICENSE files) giving you full administration permissions. 
+<p>The first thing you need to start a project is a personal GitHub account. Then, just send and email to <a href="mailto:openghdev@gmail.com">openghdev@gmail.com</a> with your project proposal and we will open a new repository (with a small description and README and LICENSE files) giving you full administration permissions. </p>
 
-After that you are responsible for managing the repository, granting access and permissions for every new participant.
+<p>After that you are responsible for managing the repository, granting access and permissions for every new participant.</p>
 
-The OpenGH team will be there to help you as far as we can in any trouble you have with the repository administration. Our idea is to make a self-managed community, the coding translation of the official Grasshopper3d forum.</p>
+<p>The OpenGH team will be there to help you as far as we can in any trouble you have with the repository administration. Our idea is to make a self-managed community, the coding translation of the official Grasshopper3d forum.</p>
 
-<h3>Rather Drive Stick?</h3>
+<h3>How will be the projects organized? Will I have access to all projects in the GitHub organization?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>Every project proposal will be translated into an online repository inside openGH GitHub organization profile administered by the applicant/s; they will grant Push, Pull and Administration permissions in the repository. Every new participant will be able to access to any permission roll (from “Only Pull” to “Administration”), this must be coordinated by the project founders. </p>
 
-<h3>Authors and Contributors</h3>
+<p>If you want to participate in several projects in the community, just send an email to the contact address provided by the repositories administrators. You can participate in all the projects you want. And remember that the open-source profile of every repository in openGH will always let you to fork and download it.</p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<h3>What kind license is going to be used in the developed projects?</h3>
 
-<h3>Support or Contact</h3>
+<p>It will a standard Mozilla open source license. Some projects profiles (like wrappers, ports and streamline) will be linked to existing licenses that comes from the code that they derive from. Just take some minutes to read the Mozilla license and the one inherent to the existing code.</p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>We have chosen Mozilla licensing model because it’s a nice compromise between a totally permissive license (like the MIT license) and a little bit more restrictive license (like BSD licenses). We want to protect as far as we can’t the code generated in openGH keeping its core opensource for as long as possible (even if some projects in the future derive in propietary license models), but giving you freedom to choose how your project will evolve in every moment.</p>
+
+<p>We'll not control how your project and needs evolve, but we will encourage you to stay as much as you can in the open source side. If for some reason your project turn into a non-opensource license model, just remember that all the information generated until that point will remain public and with the starting license.</p>
+
+<p>That's because we want to turn openGh into a big code library for learning,researching and fun.</p>
+
+<p>You will be able to choose if OpenGh appears in your project credits or not, that is up to you. But you will always have to include all the people that have contributed in your project.</p>
+
+<h3>Why have you chosen GitHub?</h3>
+
+<ul>
+<li>McNeel has a repository library where it hosts several of its open source projects such as Rhinocommon, RhinoPython, and several languages of code samples.</li>
+<li>The process for configuring your machine to work with Github has been very streamlined.  Download an app (available for Windows, Mac and Android) and clone a repository to your local machine.  More complicated issues, such as conflicts, can be dealt with rather easily.  All of this is very well documented.</li>
+<li>The Github support is very quick to reply in case there are any issues.</li>
+<li>Github is free for open source projects with 1Gb of storage “soft limit”.</li>
+<li>Dale Fugier has a repository library there! <a href="https://github.com/dalefugier">https://github.com/dalefugier</a>
+</li>
+<li>Gist for quick code snippets</li>
+<li>GitHub Pages to create quick pages for your projects.</li>
+<li>All this GH addons developers use GitHub: Daniel Picker, Nathan Miller, Ursula Frick and Thomas Grabner (a.k.a. UTO), Arthur Mamou-Mani, Giulio Piacentino, Luis Fraguada...</li>
+</ul><h3>What kind of projects are suitable to be inside openGH?</h3>
+
+<ul>
+<li>Wrappers - Projects that wrap existing libraries to expose their functionality to Grasshopper.</li>
+</ul><p><img src="https://raw.github.com/openghdev/openghdev.github.io/master/images/Projects%20explanation-01.png" alt="Wrappers"></p>
+
+<ul>
+<li>Ports - Projects that port code from other languages to a GH compatible language.</li>
+<li>Suite - Projects that set out to compose a new set of components, including custom datatypes for specific data interchange.</li>
+<li>Libraries - .dll or other referenced assembly for classes to be implemented in other add-ons.</li>
+<li>Streamline - Projects that aim to create a comprehensive set of components from existing add-ons that have significant functional redundancy.</li>
+</ul><p><img src="https://raw.github.com/openghdev/openghdev.github.io/master/images/Projects%20explanation-02.png" alt="Streamline"></p>
+
+<h3>What programming languages could be used to develop projects?</h3>
+
+<p>Any language supported by GH (C#, VB.NET and python area allowed). Just choose one for your project and start coding.</p>
+
+<p>Compiled and VB/C#/Python custom components are allowed. Every development team must choose the coding language/s used as well as the distribution format.</p>
+
+<p>In the first months we will suggest to the teams to develop code using standard VB, C# and Python Grasshopper custom components. This will let us to test the system and open the project to a wider range of users with different knowledge levels.</p>
+
+<p>For non-compiled projects we suggest to upload both, the <em>.gh file with the custom component and the exported code file into the proper format (</em>.vb, *.py,...).</p>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
-    
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-40868976-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
 
   </body>
 </html>
